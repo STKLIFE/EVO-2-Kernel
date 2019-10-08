@@ -1,0 +1,39 @@
+#
+# Touchscreen driver configuration
+#
+config TOUCHSCREEN_MTK_GSLX68X
+	tristate "GSLX68X for Mediatek package"
+	default n
+	help
+	  Say Y here if you have GSLX68X touch panel.
+
+	  If unsure, say N.
+
+	  To compile this dirver as a module, choose M here: the
+	  module will be called.
+
+
+
+config GSLX68X_GESTURE_WAKEUP
+	bool "GSLX68X for Mediatek package"
+	default n
+	help
+	Say Y here if you have GSLX68X touch panel GSLX68X_GESTURE_WAKEUP.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+
+
+config GSLX68X_PROXIMITY
+	bool "GSLX68X for Mediatek package"
+	default n
+	help
+	Say Y here if you have GSLX68X touch panel GSLX68X_PROXIMITY.
+
+	If unsure, say N.
+
+	To compile this dirver as a module, choose M here: the
+	module will be called.
+

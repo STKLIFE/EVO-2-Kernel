@@ -1,0 +1,9 @@
+config NFC_CHIP_SUPPORT
+	tristate "NFC ST21NFC support"
+	depends on I2C
+	---help---
+	  This module adds support for the STMicroelectronics st21nfc  interface.
+	  Select this if your platform is using the i2c bus.
+
+	  If you choose to build a module, it'll be called st21nfc
+	  Say N if unsure.
